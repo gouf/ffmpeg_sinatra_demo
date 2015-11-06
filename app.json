@@ -1,0 +1,16 @@
+{
+  "name": "Ffmpeg",
+  "description": "try ffmpeg buildpacks",
+  "keywords": [
+    "small",
+    "sharp",
+    "tool"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],
+  "addons": [],
+  "env": {}
+}
