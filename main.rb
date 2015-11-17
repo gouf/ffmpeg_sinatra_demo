@@ -3,7 +3,6 @@ require 'fileutils'
 require 'tempfile'
 
 def screenshot
-  current_path = '/home/gou/ffmpeg/movie.mp4'
   current_path = File.expand_path('./movie.mp4')
 
   tempfile = Tempfile.open(['movie', '.jpg'])
